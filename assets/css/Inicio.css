@@ -1,0 +1,264 @@
+section {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.img-circle {
+    -webkit-clip-path: circle(39% at 50% 50%);
+    clip-path: circle(39% at 50% 50%);
+}
+
+.img-circle-left {
+    transform: scale(1.7) translateX(-10%) translateY(15%);
+}
+
+.img-circle-right {
+    transform: scale(1.6) translateX(22%) translateY(-35%);
+}
+
+.Titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+}
+
+.Contenido {
+    text-align: justify;
+    line-height: 4.5rem;
+    padding-bottom: 5rem;
+}
+
+.Contenido ul {
+    list-style: none;
+}
+
+.Contenido ul li::before {
+    content: "\2022";
+    color: #5984bf;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.img-responsive {
+    background-repeat: no-repeat !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}
+
+#Fondo1 {
+    background: #5e91e1;
+    background-image: url(../../images/FONDO.png);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+    border-top: 2rem solid #5e91e1
+}
+
+
+/*SWIPERS*/
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide .Contenido {
+    font-size: large;
+    padding-bottom: 2rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0);
+    left: 10rem;
+    right: 10rem;
+    padding-top: 0.5rem;
+}
+
+.carousel-caption .Titulo {
+    text-align: left;
+    color: #5e91e1;
+}
+
+.bottom {
+    bottom: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.desktop_slider,
+.mobile_slider {
+    top: 0rem;
+}
+
+body {
+    background: #303030;
+    color: white;
+    font-family: "Open Sans";
+    overflow-x: hidden;
+}
+
+.Enlace a {
+    background-color: #5e91e1 !important;
+    border-color: #5e91e1 !important;
+    font-family: "Aachen BT";
+    color: #052951;
+    font-size: x-large;
+    float: left;
+}
+
+.Enlace a:hover,
+.Enlace a:focus {
+    color: white;
+}
+
+#nosotros .Subtitulo {
+    color: #5e91e1;
+}
+
+#cultura {
+    background: #162e49;
+    clip-path: url(#myClip);
+}
+
+#cultura u {
+    text-decoration: none;
+    font-family: "Aachen BT";
+}
+
+#servicios .Subtitulo u,
+#aliados .Subtitulo u {
+    border-bottom: 0.5rem solid #5984bf;
+    color: white
+}
+
+#servicios {
+    color: #5984bf;
+}
+
+#soluciones .container-fluid,
+#operations .container-fluid {
+    background: #162e49;
+}
+
+#soluciones .Subtitulo u::before,
+#operations .Subtitulo u::before,
+#nosotros .Subtitulo u::before,
+#cultura .Subtitulo u::before {
+    content: "\25B8";
+    color: #5984bf;
+    font-size: larger;
+}
+
+#nosotros .Subtitulo u,
+#servicios .Subtitulo u,
+#soluciones .Subtitulo u,
+#operations .Subtitulo u,
+#aliados .Subtitulo u {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#servicios .Contenido {
+    font-family: "Aachen BT";
+}
+
+#servicios .Subtitulo {
+    padding-bottom: 5rem;
+}
+
+#servicios .Subtitulo,
+#aliados .Subtitulo {
+    padding-bottom: 3rem;
+}
+
+#aliados {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 2rem solid #5e91e1;
+}
+
+.img-nosotros {
+    border-bottom: 1rem solid #5e91e1;
+    border-top: 1rem solid #5e91e1;
+}
+
+@media only screen and (min-width: 1000px) {
+    #soluciones .Contenido,
+    #operations .Contenido,
+    #cultura .Contenido {
+        font-size: x-large;
+    }
+    #nosotros .Contenido {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #nosotros .container-fluid {
+        padding-left: 0;
+        padding-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #cultura {
+        clip-path: none;
+    }
+    .img-circle-right {
+        display: none;
+    }
+    .img-circle-left {
+        transform: none;
+        margin-top: 5rem;
+    }
+    #servicios img {
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .desktop_slider {
+        display: none;
+        visibility: hidden;
+    }
+    .mobile_slider {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .desktop_slider {
+        display: block;
+        visibility: visible;
+    }
+    .mobile_slider {
+        display: none;
+        visibility: hidden;
+    }
+}

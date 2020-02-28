@@ -1,0 +1,76 @@
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.modal-body {
+    BACKGROUND: #777;
+}
+
+.modal-body,
+.modal-footer,
+.modal-header {
+    padding: 8px;
+}
+
+.even,
+.odd,
+#lista_mensajes tbody,
+.modal-header,
+.modal-footer {
+    BACKGROUND: #4e4e4e;
+}
+
+thead {
+    BACKGROUND: #39393e;
+}
+
+tr,
+.Titulo,
+#lista_mensajes_filter,
+#lista_mensajes_length,
+.dataTables_info,
+.modal-header,
+.modal-body {
+    color: white;
+}
+
+.espacio-top {
+    margin-top: 6rem;
+}
+
+.navbar-center {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-center li {
+    float: none;
+    display: inline-block;
+}
+
+tr {
+    cursor: pointer;
+}
+
+.panel-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+#lista_mensajes>tbody>tr.active>td,
+#lista_mensajes>thead>tr.active>th {
+    background-color: black;
+}
+
+#lista_mensajes>tbody>tr.no-revisado {
+    background-color: #a79f9f;
+}

@@ -1,0 +1,43 @@
+.Logo-Footer {
+    width: 25%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #162e49;
+    font-family: "Arial Narrow";
+}
+
+footer,
+footer a {
+    color: white;
+}
+
+footer a {
+    font-family: "Aachen BT";
+}
+
+footer li {
+    text-decoration: none;
+    display: inline-block;
+    /*padding-left: 2rem;*/
+    padding-right: 2rem;
+}
+
+footer a:hover {
+    color: #4a72b2;
+    text-decoration: none;
+}
+
+.Contenido-Footer {
+    padding: 3rem;
+}
+
+.rs-icono {
+    width: 30px;
+}
+
+#redes-sociales {
+    padding-top: 2rem;
+}

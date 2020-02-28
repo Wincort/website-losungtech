@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Aachen BT';
+    src: url("fonts/aachen-bt.ttf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url("fonts/ArialNarrow.ttf");
+    font-display: block;
+}
